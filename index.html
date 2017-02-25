@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="An Demonstration of CSS3 3D Time Machine Effect, inspired by @joecritchley's demo: http://joecritchley.com/demos/time-machine/">
+	<meta name="author" content="coderLMN">
+	<title>Time Line</title>
+	<link rel="shortcut icon" href="http://www.studycolony.com/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/tinyscrollbar.css" type="text/css" media="screen"/> -->
+    <link rel="stylesheet" href="css/nouislider.css">
+</head>
+
+<body>
+	<div class="header">
+		<img src="image/header.jpg">
+	</div>
+
+<!-- 	<audio autoplay loop>
+		<source src="http://rm.sina.com.cn/wm/VZ200812251304299958VK/music/MUSIC0812261217047952.mp3" type="audio/mpeg">
+	</audio> -->
+	<div class="main">
+		<img src="image/bg1.jpg" class="full_width position_abs">
+		<img src="image/board.png" class="full_width position_abs">
+		<!-- <button class="pull_right position_abs" id="btn_addtimeline">ADD TO THE TIMELINE</button> -->
+		<button class="pull_right position_abs" id="btn_addtimeline">
+			<img src="image/btn_timeline.png">
+		</button>
+	</div>
+	<div id="view">
+		<ul id="page"></ul>
+	</div>
+
+	<div>
+		<div id="slider_timeline" class="position_abs">
+		</div>
+		<img src="image/timeline_bar.png" class="full_width position_abs" id="timeline_bar">
+		<!-- <img src="image/timeline_slider.png" class="position_abs" id="timeline_head"> -->
+	</div>
+
+	<div class="scrollbar">
+		<div id="slider_scrollbar" class="position_abs">
+		</div>
+		<img src="image/sbar.png" class="position_abs" id="scrollbar">
+		<!-- <img src="image/shead.png" class="position_abs" id="scrollbar_head"> -->
+	</div>
+
+	<div class="footer">
+		<img src="image/footer.jpg">
+	</div>
+
+	<div class="" id="dlg_register">
+		<img src="image/register.jpg">
+		<div class="dlg_view">
+			<section class="header">
+				<h2 class="title">Add to Timeline</h2>
+				<h3>Add a memory</h3>
+				<p>fill in form below to get access</p>
+			</section>
+			<div class="dlg_body">
+				<section>
+					<h3>TITLE*</h3>
+					<input type="text" name="" class="text_input" placeholder="Add title here*">
+				</section>
+				<section>
+					<h3>DATE*</h3>
+					<div style="height: 30px;">
+						<h4>Month*</h4>
+						<input type="date" name="" class="input_date">
+					</div>
+				</section>
+				<section>
+					<h3>BRIEF STORY*</h3>
+					<input type="text" name="" class="text_input" placeholder="Tell your story">
+				</section>
+				<section style="height: 60px">
+					<h3>UPLOAD (Upload a image or add a video link)</h3>
+					<input type="text" name="" class="text_input" placeholder="">
+					<button>CHOOSE A FILE</button>
+				</section>
+				<section>
+					<h3>ADD LINK OF VIDEO OR YOUTUBE OR VIDEO</h3>
+					<!-- <input type="text" name="" class="text_input" placeholder="Add link"> -->
+					<h4>Add link</h4>
+					<button>ADD</button>
+				</section>
+			</div>
+		</div>
+
+		<div id="sliders">
+			<section>
+				<title>asdfasdfasdf</title>
+				<content>
+					asjdlfjasld asfa
+					sdf
+					asdfasdfkl
+					<h2>asdlfjasldfjkasdf</h2>
+					<video></video>
+				</content>
+			</section>
+		</div>
+
+		<button class="btn_close" id="btn_close1">X</button>
+		<button class="btn_close" id="btn_close2">SUBMIT</button>
+	</div>
+
+	<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/nouislider.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
+</body>
+</html>
